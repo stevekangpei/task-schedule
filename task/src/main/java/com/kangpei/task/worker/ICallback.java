@@ -12,5 +12,6 @@ public interface ICallback {
     void onStart();
     
     void onFinish();
-    
+
+    void onError();
 }

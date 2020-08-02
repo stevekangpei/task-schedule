@@ -10,6 +10,6 @@ package com.kangpei.task.worker;
 public interface ITask<T, R> {
     
     
-    R work(T t);
+    R execute(T t);
     
 }
